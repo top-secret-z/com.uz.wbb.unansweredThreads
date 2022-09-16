@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.board.canViewUnansweredThreads"><![CDATA[Kann Liste der unbeantworteten Themen sehen]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.board.thread.unanswered"><![CDATA[Unbeantwortete Themen]]></item>
+		<item name="wcf.acp.option.wbb_board_exclude_board_ids"><![CDATA[Foren ausschließen]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_unanswered_closed"><![CDATA[Geschlossene Themen anzeigen]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_unanswered_done"><![CDATA[Erledigte Themen anzeigen]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_unanswered_period"><![CDATA[Maximales Alter]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_unanswered_period.description"><![CDATA[Maximales Alter der angezeigten unbeantworteten Themen. 0 eingeben, um alle unbeantworteten Themen anzuzeigen.]]></item>
+	</category>
+</language>
