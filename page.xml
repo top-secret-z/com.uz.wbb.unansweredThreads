@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/page.xsd">
-	<import>
-		<page identifier="com.uz.wbb.unansweredThreads">
-			<pageType>system</pageType>
-			<controller>wbb\page\UnansweredThreadListPage</controller>
-			<handler>wbb\system\page\handler\UnansweredThreadListPageHandler</handler>
-			<name language="de">Unbeantwortete Themen</name>
-			<name language="en">Unanswered Threads</name>
-			<parent>com.woltlab.wbb.BoardList</parent>
-			
-			<content language="en">
-				<title>Unanswered Threads</title>
-			</content>
-			<content language="de">
-				<title>Unbeantwortete Themen</title>
-			</content>
-		</page>
-	</import>
+    <import>
+        <page identifier="com.uz.wbb.unansweredThreads">
+            <pageType>system</pageType>
+            <controller>wbb\page\UnansweredThreadListPage</controller>
+            <handler>wbb\system\page\handler\UnansweredThreadListPageHandler</handler>
+            <name language="de">Unbeantwortete Themen</name>
+            <name language="en">Unanswered Threads</name>
+            <parent>com.woltlab.wbb.BoardList</parent>
+
+            <content language="en">
+                <title>Unanswered Threads</title>
+            </content>
+            <content language="de">
+                <title>Unbeantwortete Themen</title>
+            </content>
+        </page>
+    </import>
 </data>

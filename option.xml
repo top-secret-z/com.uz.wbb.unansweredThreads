@@ -1,37 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/option.xsd">
-	<import>
-		<categories>
-			<category name="board.thread.unanswered">
-				<parent>board.thread</parent>
-			</category>
-		</categories>
-		
-		<options>
-			<!-- board.threads.unanswered -->
-			<option name="wbb_board_thread_unanswered_period">
-				<categoryname>board.thread.unanswered</categoryname>
-				<optiontype>integer</optiontype>
-				<defaultvalue>30</defaultvalue>
-				<minvalue>0</minvalue>
-				<maxvalue>365</maxvalue>
-				<suffix>days</suffix>
-			</option>
-			<option name="wbb_board_thread_unanswered_closed">
-				<categoryname>board.thread.unanswered</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-			</option>
-			<option name="wbb_board_thread_unanswered_done">
-				<categoryname>board.thread.unanswered</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-			</option>
-			<option name="wbb_board_exclude_board_ids">
-				<categoryname>board.thread.unanswered</categoryname>
-				<optiontype>WBBBoardMultiSelect</optiontype>
-			</option>
-		</options>
-	</import>
+    <import>
+        <categories>
+            <category name="board.thread.unanswered">
+                <parent>board.thread</parent>
+            </category>
+        </categories>
+
+        <options>
+            <!-- board.threads.unanswered -->
+            <option name="wbb_board_thread_unanswered_period">
+                <categoryname>board.thread.unanswered</categoryname>
+                <optiontype>integer</optiontype>
+                <defaultvalue>30</defaultvalue>
+                <minvalue>0</minvalue>
+                <maxvalue>365</maxvalue>
+                <suffix>days</suffix>
+            </option>
+            <option name="wbb_board_thread_unanswered_closed">
+                <categoryname>board.thread.unanswered</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+            </option>
+            <option name="wbb_board_thread_unanswered_done">
+                <categoryname>board.thread.unanswered</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+            </option>
+            <option name="wbb_board_exclude_board_ids">
+                <categoryname>board.thread.unanswered</categoryname>
+                <optiontype>WBBBoardMultiSelect</optiontype>
+            </option>
+        </options>
+    </import>
 
 </data>

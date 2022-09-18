@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
-	<category name="wcf.acp.group">
-		<item name="wcf.acp.group.option.user.board.canViewUnansweredThreads"><![CDATA[Can view list of Unanswered Threads]]></item>
-	</category>
-	
-	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.category.board.thread.unanswered"><![CDATA[Unanswered Threads]]></item>
-		<item name="wcf.acp.option.wbb_board_exclude_board_ids"><![CDATA[Exclude Boards]]></item>
-		<item name="wcf.acp.option.wbb_board_thread_unanswered_closed"><![CDATA[Show closed threads]]></item>
-		<item name="wcf.acp.option.wbb_board_thread_unanswered_done"><![CDATA[Show resolved threads]]></item>
-		<item name="wcf.acp.option.wbb_board_thread_unanswered_period"><![CDATA[Maximum Age]]></item>
-		<item name="wcf.acp.option.wbb_board_thread_unanswered_period.description"><![CDATA[Maximum age of displayed unanswered threads. Enter 0 to show all unanswered threads.]]></item>
-	</category>
+    <category name="wcf.acp.group">
+        <item name="wcf.acp.group.option.user.board.canViewUnansweredThreads"><![CDATA[Can view list of Unanswered Threads]]></item>
+    </category>
+
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.category.board.thread.unanswered"><![CDATA[Unanswered Threads]]></item>
+        <item name="wcf.acp.option.wbb_board_exclude_board_ids"><![CDATA[Exclude Boards]]></item>
+        <item name="wcf.acp.option.wbb_board_thread_unanswered_closed"><![CDATA[Show closed threads]]></item>
+        <item name="wcf.acp.option.wbb_board_thread_unanswered_done"><![CDATA[Show resolved threads]]></item>
+        <item name="wcf.acp.option.wbb_board_thread_unanswered_period"><![CDATA[Maximum Age]]></item>
+        <item name="wcf.acp.option.wbb_board_thread_unanswered_period.description"><![CDATA[Maximum age of displayed unanswered threads. Enter 0 to show all unanswered threads.]]></item>
+    </category>
 </language>
