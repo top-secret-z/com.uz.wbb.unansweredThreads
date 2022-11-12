@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/menuItem.xsd">
-	<import>
-		<item identifier="com.uz.wbb.unansweredThreads">
-			<parent>com.woltlab.wbb.BoardList</parent>
-			<title language="de">Unbeanwortete Themen</title>
-			<title language="en">Unanswered Threads</title>
-			<page>com.uz.wbb.unansweredThreads</page>
-		</item>
-	</import>
+    <import>
+        <item identifier="com.uz.wbb.unansweredThreads">
+            <parent>com.woltlab.wbb.BoardList</parent>
+            <title language="de">Unbeanwortete Themen</title>
+            <title language="en">Unanswered Threads</title>
+            <page>com.uz.wbb.unansweredThreads</page>
+        </item>
+    </import>
 </data>
